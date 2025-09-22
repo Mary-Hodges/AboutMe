@@ -1,13 +1,13 @@
 //
-//  ImageLayout.swift
+//  ImageHomeScreen.swift
 //  AboutMe
 //
-//  Created by Mary Hodges on 9/18/25.
+//  Created by Mary Hodges on 9/22/25.
 //
 
 import SwiftUI
 
-struct ImageLayout: View {
+struct ImageHomeScreen: View {
     
     var picture: String
     var title: String
@@ -22,12 +22,12 @@ struct ImageLayout: View {
                 .fill(.clear)
                 .background(
                     // Find a differnet color to be the gradient. It looks too dark.
-                LinearGradient(
-                    colors:[.black, .clear], startPoint: .bottom, endPoint: .top)
-            )
+                    LinearGradient(
+                        colors:[.black, .clear], startPoint: .bottom, endPoint: .top)
+                )
             
             Text(title)
-                .font(.title2)
+                .font(.system(.title2, design: .serif, weight: .light))
                 .padding(5)
         }
         .foregroundStyle(Color.brown)
@@ -35,11 +35,11 @@ struct ImageLayout: View {
             RoundedRectangle(cornerRadius: 10)
         )
         .overlay(RoundedRectangle(cornerRadius: 10).stroke(.brown, lineWidth: 2))
-//        .shadow(radius: 1)
+        //        .shadow(radius: 1)
         
     }
 }
 
 #Preview {
-    ImageLayout(picture: "MyCats", title: "Title")
+    ImageHomeScreen(picture: "MyCats", title: "Title")
 }

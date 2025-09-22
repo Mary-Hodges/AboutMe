@@ -17,7 +17,7 @@ struct HomeScreen: View {
                     
                 // I want a custom font
                 Text("Mary Hodges")
-                    .font(.largeTitle)
+                    .font(CustomFont.largeTitle)
                     .bold() // I might not want this....
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()
@@ -29,7 +29,7 @@ struct HomeScreen: View {
                     NavigationLink {
                         PetScreen()
                     } label: {
-                        ImageLayout(
+                        ImageHomeScreen(
                             picture: "MyCats",
                             title: "My Cats"
                         )
@@ -38,7 +38,7 @@ struct HomeScreen: View {
                     NavigationLink {
                         DiceScreen()
                     } label: {
-                        ImageLayout(
+                        ImageHomeScreen(
                             picture: "MyCats",
                             title: "My Dice"
                         )
@@ -51,7 +51,7 @@ struct HomeScreen: View {
                     NavigationLink {
                         AnimeScreen()
                     } label: {
-                        ImageLayout(
+                        ImageHomeScreen(
                             picture: "MyCats",
                             title: "Favorite Anime"
                         )
@@ -60,7 +60,7 @@ struct HomeScreen: View {
                     NavigationLink {
                         FlowersScreen()
                     } label: {
-                        ImageLayout(
+                        ImageHomeScreen(
                             picture: "MyCats",
                             title: "Favorite Flowers"
                         )
@@ -69,7 +69,7 @@ struct HomeScreen: View {
                     NavigationLink {
                         VideogamesScreen()
                     } label: {
-                        ImageLayout(
+                        ImageHomeScreen(
                             picture: "MyCats",
                             title: "Favorite Videogames"
                         )
