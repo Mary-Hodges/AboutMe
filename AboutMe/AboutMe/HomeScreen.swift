@@ -10,18 +10,8 @@ import SwiftUI
 struct HomeScreen: View {
     var body: some View {
         VStack {
-            ZStack {
-                Rectangle()
-                    .fill(.brown)
-                    .frame(maxWidth: .infinity, maxHeight: 20)
-                    
-                // I want a custom font
-                Text("Mary Hodges")
-                    .font(CustomFont.largeTitle)
-                    .bold() // I might not want this....
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding()
-            }
+            HeaderOutline(title: "Mary Hodges")
+            
             Spacer()
         
             HStack {
@@ -29,19 +19,13 @@ struct HomeScreen: View {
                     NavigationLink {
                         PetScreen()
                     } label: {
-                        ImageHomeScreen(
-                            picture: "MyCats",
-                            title: "My Cats"
-                        )
+                        ImageHomeScreen(picture: "MyCats", title: "My Cats")
                     }
                     
                     NavigationLink {
                         DiceScreen()
                     } label: {
-                        ImageHomeScreen(
-                            picture: "MyCats",
-                            title: "My Dice"
-                        )
+                        ImageHomeScreen(picture: "MyCats", title: "My Dice")
                     }
                 }
                 
@@ -51,34 +35,25 @@ struct HomeScreen: View {
                     NavigationLink {
                         AnimeScreen()
                     } label: {
-                        ImageHomeScreen(
-                            picture: "MyCats",
-                            title: "Favorite Anime"
-                        )
+                        ImageHomeScreen(picture: "MyCats", title: "Favorite Anime")
                     }
                     
                     NavigationLink {
                         FlowersScreen()
                     } label: {
-                        ImageHomeScreen(
-                            picture: "MyCats",
-                            title: "Favorite Flowers"
-                        )
+                        ImageHomeScreen(picture: "MyCats", title: "Favorite Flowers")
                     }
                     
                     NavigationLink {
                         VideogamesScreen()
                     } label: {
-                        ImageHomeScreen(
-                            picture: "MyCats",
-                            title: "Favorite Videogames"
-                        )
+                        ImageHomeScreen(picture: "MyCats", title: "Favorite Videogames")
                     }
                 }
             }
             Spacer()
         }
-        .padding()
+        .padding([.leading, .trailing])
         .background {
             Image(.aboutMeBackground)
                 .resizable()

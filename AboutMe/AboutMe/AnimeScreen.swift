@@ -8,9 +8,32 @@
 import  SwiftUI
 
 struct AnimeScreen: View {
+    
+    let anime = AnimeArrays()
+    
     var body: some View {
-        VStack {
-            Text("Anime")
+        ScrollView {
+            AnimeVScroll(imageArray: anime.action, title: "      Action      ")
+            
+            AnimeVScroll(imageArray: anime.romance, title: "      Romance      ")
         }
+        .padding([.leading, .trailing])
+        .background {
+            Image(.aboutMeBackground)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .ignoresSafeArea()
+        }
+        .navigationTitle("Anime")
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbarColorScheme(.light)
+        .monospaced()
+        
+    }
+}
+
+#Preview {
+    NavigationStack {
+        AnimeScreen()
     }
 }
