@@ -7,23 +7,23 @@
 
 struct AnimeArrays {
     let action = [
-        Anime(name: "Dan Da Dan", imageName: "MyCats"),
-        Anime(name: "Demon Slayer", imageName: "MyCats"),
-        Anime(name: "Fullmetal Alchemist: Brotherhood", imageName: "MyCats"),
-        Anime(name: "Jujutsu Kaisen", imageName: "MyCats"),
-        Anime(name: "Kaiju No. 8", imageName: "MyCats"),
-        Anime(name: "Erased", imageName: "MyCats")
+        Anime(name: "Dan Da Dan", image: .myCats),
+        Anime(name: "Demon Slayer", image: .myCats),
+        Anime(name: "Fullmetal Alchemist: Brotherhood", image: .myCats),
+        Anime(name: "Jujutsu Kaisen", image: .myCats),
+        Anime(name: "Kaiju No. 8", image: .myCats),
+        Anime(name: "Erased", image: .myCats)
     ]
     
     let romance = [
-        Anime(name: "Fruits Basket", imageName: "MyCats"),
-        Anime(name: "A Sign of Affection", imageName: "MyCats"),
-        Anime(name: "Horimiya", imageName: "MyCats"),
-        Anime(name: "My Little Monster", imageName: "MyCats"),
-        Anime(name: "Orange", imageName: "MyCats"),
-        Anime(name: "Snow White with the Red Hair", imageName: "MyCats"),
-        Anime(name: "Sugar Apple Fariy Tale", imageName: "MyCats"),
-        Anime(name: "Suzume", imageName: "MyCats"),
-        Anime(name: "Yona of the Dawn", imageName: "MyCats")
+        Anime(name: "Fruits Basket", image: .myCats),
+        Anime(name: "A Sign of Affection", image: .myCats),
+        Anime(name: "Horimiya", image: .myCats),
+        Anime(name: "My Little Monster", image: .myCats),
+        Anime(name: "Orange", image: .myCats),
+        Anime(name: "Snow White with the Red Hair", image: .myCats),
+        Anime(name: "Sugar Apple Fariy Tale", image: .myCats),
+        Anime(name: "Suzume", image: .myCats),
+        Anime(name: "Yona of the Dawn", image: .myCats)
     ]
 }

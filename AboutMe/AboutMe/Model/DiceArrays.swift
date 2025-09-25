@@ -7,73 +7,73 @@
 
 struct DiceArrays {
     let red = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
     
     let orange = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
     
     let yellow = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
     
     let green = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
     
     let blue = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
     
     let purple = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
     
     let pink = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
     
     let black = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
     
     let white = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
     
     let metal = [
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats"),
-        Dice(image: "MyCats")
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats),
+        Dice(image: .myCats)
     ]
 }
 

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ImageWithDescription: View {
-    var picture: String
+    var picture: ImageResource
     var description: String
     
     var body: some View {
@@ -17,6 +17,7 @@ struct ImageWithDescription: View {
                 .resizable()
                 .frame(width: 75, height: 100)
                 .clipShape(RoundedRectangle(cornerRadius: 8))
+                .overlay(RoundedRectangle(cornerRadius: 8).stroke(.brown, lineWidth: 2))
             Spacer()
             Text(description)
                 .font(.system(.body, design: .serif, weight: .light))
@@ -24,9 +25,10 @@ struct ImageWithDescription: View {
         }
         .padding([.leading, .trailing], 50)
         .padding([.top, .bottom], 5)
+        .glassEffect()
     }
 }
 
 #Preview {
-    ImageWithDescription(picture: "MyCats", description: "Long String")
+    ImageWithDescription(picture: .myCats, description: "Long String")
 }

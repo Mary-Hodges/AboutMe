@@ -19,15 +19,15 @@ struct AnimeVScroll: View {
                 .containerShape(RoundedRectangle(cornerRadius: 5))
                 .font(.system(.title2, design: .serif, weight: .medium))
                 .monospaced()
+                .padding()
         ) {
             ForEach(imageArray) { anime in
                 ImageWithDescription(
-                    picture: anime.imageName,
+                    picture: anime.image,
                     description: anime.name
                 )
             }
         }
-        .glassEffect()
     }
 }
 

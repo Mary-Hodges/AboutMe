@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct VideogamesScreen: View {
+struct VideogameScreen: View {
     var body: some View {
         VStack {
             Text("Videogames")

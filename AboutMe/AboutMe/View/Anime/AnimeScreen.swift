@@ -28,7 +28,6 @@ struct AnimeScreen: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbarColorScheme(.light)
         .monospaced()
-        
     }
 }
 

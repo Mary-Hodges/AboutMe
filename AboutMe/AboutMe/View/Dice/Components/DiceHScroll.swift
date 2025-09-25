@@ -17,7 +17,7 @@ struct DiceHScroll: View {
             header: Text(title)
                 .background(Color.brown)
                 .containerShape(RoundedRectangle(cornerRadius: 5))
-                .font(.system(.title2, design: .serif, weight: .medium))
+                .font(.system(.title2, design: .serif, weight: .light))
                 .monospaced()
         ) {
             ScrollView(.horizontal) {

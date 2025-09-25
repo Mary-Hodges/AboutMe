@@ -35,7 +35,6 @@ struct DiceScreen: View {
             DiceHScroll( imageArray: dice.metal, title: "      Metal      ")
             
         }
-        .padding([.leading, .trailing])
         .background {
             Image(.aboutMeBackground)
                 .resizable()

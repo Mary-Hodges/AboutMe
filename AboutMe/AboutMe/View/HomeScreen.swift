@@ -39,13 +39,13 @@ struct HomeScreen: View {
                     }
                     
                     NavigationLink {
-                        FlowersScreen()
+                        FlowerScreen()
                     } label: {
                         ImageHomeScreen(picture: "MyCats", title: "Favorite Flowers")
                     }
                     
                     NavigationLink {
-                        VideogamesScreen()
+                        VideogameScreen()
                     } label: {
                         ImageHomeScreen(picture: "MyCats", title: "Favorite Videogames")
                     }
