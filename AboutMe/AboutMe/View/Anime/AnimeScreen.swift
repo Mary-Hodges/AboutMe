@@ -24,7 +24,7 @@ struct AnimeScreen: View {
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
         }
-        .navigationTitle("Anime")
+        .navigationTitle("Favorite Anime")
         .navigationBarTitleDisplayMode(.inline)
         .toolbarColorScheme(.light)
         .monospaced()

@@ -23,7 +23,7 @@ struct FlowerScreen: View {
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
         }
-        .navigationTitle("Flowers")
+        .navigationTitle("Favorite Flowers")
         .navigationBarTitleDisplayMode(.inline)
         .toolbarColorScheme(.light)
         .monospaced()

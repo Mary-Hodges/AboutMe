@@ -19,13 +19,13 @@ struct HomeScreen: View {
                     NavigationLink {
                         PetScreen()
                     } label: {
-                        ImageHomeScreen(picture: "MyCats", title: "My Cats")
+                        ImageHomeScreen(picture: .myCats, title: "My Cats")
                     }
                     
                     NavigationLink {
                         DiceScreen()
                     } label: {
-                        ImageHomeScreen(picture: "MyCats", title: "My Dice")
+                        ImageHomeScreen(picture: .myCats, title: "My Dice")
                     }
                 }
                 
@@ -35,19 +35,19 @@ struct HomeScreen: View {
                     NavigationLink {
                         AnimeScreen()
                     } label: {
-                        ImageHomeScreen(picture: "MyCats", title: "Favorite Anime")
+                        ImageHomeScreen(picture: .myCats, title: "Favorite Anime")
                     }
                     
                     NavigationLink {
                         FlowerScreen()
                     } label: {
-                        ImageHomeScreen(picture: "MyCats", title: "Favorite Flowers")
+                        ImageHomeScreen(picture: .myCats, title: "Favorite Flowers")
                     }
                     
                     NavigationLink {
                         VideogameScreen()
                     } label: {
-                        ImageHomeScreen(picture: "MyCats", title: "Favorite Videogames")
+                        ImageHomeScreen(picture: .myCats, title: "Favorite Videogames")
                     }
                 }
             }

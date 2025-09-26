@@ -6,14 +6,18 @@
 //
 
 struct VideogameArray {
-    let videogame = [
-        FavoriteItem(name: "Orchid", image: .myCats),
-        FavoriteItem(name: "Peony", image: .myCats),
-        FavoriteItem(name: "Carnation", image: .myCats),
-        FavoriteItem(name: "Lavender", image: .myCats),
-        FavoriteItem(name: "Poppy", image: .myCats),
-        FavoriteItem(name: "Daisy", image: .myCats),
-        FavoriteItem(name: "Wisteria", image: .myCats),
-        FavoriteItem(name: "Wisteria", image: .myCats)
+    let singlePlayer = [
+        FavoriteItem(name: "Luigi's Mansion", image: .myCats),
+        FavoriteItem(name: "Zelda", image: .myCats),
+        FavoriteItem(name: "Animal Crossing", image: .myCats),
+        FavoriteItem(name: "Paper Mario", image: .myCats)
+    ]
+    
+    let multiplayer = [
+        FavoriteItem(name: "Minecraft", image: .myCats),
+        FavoriteItem(name: "Stardew", image: .myCats),
+        FavoriteItem(name: "Mario Party", image: .myCats),
+        FavoriteItem(name: "Mario Kart", image: .myCats),
+        FavoriteItem(name: "Halo", image: .myCats)
     ]
 }

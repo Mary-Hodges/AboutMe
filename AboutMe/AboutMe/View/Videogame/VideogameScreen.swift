@@ -13,7 +13,8 @@ struct VideogameScreen: View {
     
     var body: some View {
         ScrollView {
-            ItemVScroll(imageArray: videogame.videogame, title: "Genre")
+            ItemVScroll(imageArray: videogame.singlePlayer, title: "      Single Player      ")
+            ItemVScroll(imageArray: videogame.multiplayer, title: "      Multiplayer      ")
         }
         .padding([.leading, .trailing])
         .background {
@@ -22,9 +23,13 @@ struct VideogameScreen: View {
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
         }
-        .navigationTitle("Videogames")
+        .navigationTitle("Favorite Videogames")
         .navigationBarTitleDisplayMode(.inline)
         .toolbarColorScheme(.light)
         .monospaced()
     }
+}
+
+#Preview {
+    VideogameScreen()
 }

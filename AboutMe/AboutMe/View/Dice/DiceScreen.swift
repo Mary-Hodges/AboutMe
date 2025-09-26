@@ -41,7 +41,7 @@ struct DiceScreen: View {
                 .aspectRatio(contentMode: .fill)
                 .ignoresSafeArea()
         }
-        .navigationTitle("Dice")
+        .navigationTitle("My Dice")
         .navigationBarTitleDisplayMode(.inline)
         .toolbarColorScheme(.light)
         .monospaced()

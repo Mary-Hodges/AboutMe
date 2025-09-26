@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ImageHomeScreen: View {
     
-    var picture: String
+    var picture: ImageResource
     var title: String
     
     var body: some View {
@@ -42,5 +42,5 @@ struct ImageHomeScreen: View {
 }
 
 #Preview {
-    ImageHomeScreen(picture: "MyCats", title: "Title")
+    ImageHomeScreen(picture: .myCats, title: "Title")
 }
