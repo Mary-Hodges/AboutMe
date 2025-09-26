@@ -7,13 +7,12 @@
 
 struct FlowerArray {
     let flowers = [
-        Flower(image: .myCats, name: "Orchid"),
-        Flower(image: .myCats, name: "Peony"),
-        Flower(image: .myCats, name: "Carnation"),
-        Flower(image: .myCats, name: "Lavender"),
-        Flower(image: .myCats, name: "Poppy"),
-        Flower(image: .myCats, name: "Daisy"),
-        Flower(image: .myCats, name: "Wisteria"),
-        Flower(image: .myCats, name: "Wisteria")
+        FavoriteItem(name: "Orchid", image: .orchid),
+        FavoriteItem(name: "Peony", image: .peony),
+        FavoriteItem(name: "Carnation", image: .carnations),
+        FavoriteItem(name: "Lavender", image: .lavender),
+        FavoriteItem(name: "Poppy", image: .poppy),
+        FavoriteItem(name: "Daisy", image: .daisy),
+        FavoriteItem(name: "Wisteria", image: .wisteria)
     ]
 }

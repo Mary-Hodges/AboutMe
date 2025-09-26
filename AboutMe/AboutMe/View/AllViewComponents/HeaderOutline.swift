@@ -13,9 +13,6 @@ struct HeaderOutline: View {
     
     var body: some View {
         ZStack {
-//            Rectangle()
-//                .fill(.brown)
-//                .frame(maxWidth: .infinity, maxHeight: 20)
             LinearGradient(
                 colors:[.brown, .clear],
                 startPoint: .leading,

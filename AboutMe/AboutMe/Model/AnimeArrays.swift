@@ -7,23 +7,23 @@
 
 struct AnimeArrays {
     let action = [
-        Anime(name: "Dan Da Dan", image: .myCats),
-        Anime(name: "Demon Slayer", image: .myCats),
-        Anime(name: "Fullmetal Alchemist: Brotherhood", image: .myCats),
-        Anime(name: "Jujutsu Kaisen", image: .myCats),
-        Anime(name: "Kaiju No. 8", image: .myCats),
-        Anime(name: "Erased", image: .myCats)
+        FavoriteItem(name: "Dan Da Dan", image: .danDaDan),
+        FavoriteItem(name: "Demon Slayer", image: .demonSlayer),
+        FavoriteItem(name: "Fullmetal Alchemist: Brotherhood", image: .fullMetal),
+        FavoriteItem(name: "Jujutsu Kaisen", image: .jujutsuKaisen),
+        FavoriteItem(name: "Kaiju No. 8", image: .kaiju),
+        FavoriteItem(name: "Erased", image: .erased)
     ]
     
     let romance = [
-        Anime(name: "Fruits Basket", image: .myCats),
-        Anime(name: "A Sign of Affection", image: .myCats),
-        Anime(name: "Horimiya", image: .myCats),
-        Anime(name: "My Little Monster", image: .myCats),
-        Anime(name: "Orange", image: .myCats),
-        Anime(name: "Snow White with the Red Hair", image: .myCats),
-        Anime(name: "Sugar Apple Fariy Tale", image: .myCats),
-        Anime(name: "Suzume", image: .myCats),
-        Anime(name: "Yona of the Dawn", image: .myCats)
+        FavoriteItem(name: "Fruits Basket", image: .fruitsBasket),
+        FavoriteItem(name: "A Sign of Affection", image: .signOfAffection),
+        FavoriteItem(name: "Horimiya", image: .horimiya),
+        FavoriteItem(name: "My Little Monster", image: .myLittleMonster),
+        FavoriteItem(name: "Orange", image: .orange),
+        FavoriteItem(name: "Snow White with the Red Hair", image: .snowWhite),
+        FavoriteItem(name: "Sugar Apple Fariy Tale", image: .sugarApple),
+        FavoriteItem(name: "Suzume", image: .suzume),
+        FavoriteItem(name: "Yona of the Dawn", image: .yona)
     ]
 }

@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct AnimeVScroll: View {
+struct ItemVScroll: View {
     
-    let imageArray: [Anime]
+    let imageArray: [FavoriteItem]
     let title: String
     
     var body: some View {
         Section(
             header: Text(title)
-                .background(Color.brown)
+                .background(Color.brown.opacity(0.90))
                 .containerShape(RoundedRectangle(cornerRadius: 5))
                 .font(.system(.title2, design: .serif, weight: .medium))
                 .monospaced()

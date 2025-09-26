@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct VideogameScreen: View {
+    
+    let videogame = VideogameArray()
+    
     var body: some View {
-        VStack {
-            Text("Videogames")
+        ScrollView {
+            ItemVScroll(imageArray: videogame.videogame, title: "Genre")
         }
+        .padding([.leading, .trailing])
+        .background {
+            Image(.aboutMeBackground)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .ignoresSafeArea()
+        }
+        .navigationTitle("Videogames")
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbarColorScheme(.light)
+        .monospaced()
     }
 }

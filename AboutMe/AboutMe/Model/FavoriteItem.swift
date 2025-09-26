@@ -8,7 +8,7 @@
 import Foundation
 import DeveloperToolsSupport
 
-struct Anime: Identifiable {
+struct FavoriteItem: Identifiable {
     let id = UUID()
     let name: String
     let image: ImageResource

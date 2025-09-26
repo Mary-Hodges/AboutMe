@@ -25,7 +25,8 @@ struct ImageWithDescription: View {
         }
         .padding([.leading, .trailing], 50)
         .padding([.top, .bottom], 5)
-        .glassEffect()
+        .background(.clear)
+        .glassEffect(.regular.tint(.lightPink.opacity(0.5)))
     }
 }
 

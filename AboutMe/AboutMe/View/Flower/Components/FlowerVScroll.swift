@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FlowerVScroll: View {
     
-    let imageArray: [Flower]
+    let imageArray: [FavoriteItem]
     
     var body: some View {
         Section() {

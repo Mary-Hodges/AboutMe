@@ -13,9 +13,9 @@ struct AnimeScreen: View {
     
     var body: some View {
         ScrollView {
-            AnimeVScroll(imageArray: anime.action, title: "      Action      ")
+            ItemVScroll(imageArray: anime.action, title: "      Action      ")
             
-            AnimeVScroll(imageArray: anime.romance, title: "      Romance      ")
+            ItemVScroll(imageArray: anime.romance, title: "      Romance      ")
         }
         .padding([.leading, .trailing])
         .background {

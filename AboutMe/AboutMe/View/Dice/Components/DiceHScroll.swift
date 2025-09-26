@@ -31,7 +31,7 @@ struct DiceHScroll: View {
                                 RoundedRectangle(cornerRadius: 100)
                             )
                             .overlay(RoundedRectangle(cornerRadius: 100).stroke(.brown, lineWidth: 2))
-                            .glassEffect()
+                            .glassEffect(.regular.tint(.lightPink.opacity(0.5)))
                     }
                 }
                 .padding()
